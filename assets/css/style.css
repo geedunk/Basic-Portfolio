@@ -1,20 +1,96 @@
-body {
-    background-image: url("./assets/images/leaves.png");
+/* Header */
+.mainHeader {
+    background-color: #56D0CB;
+    position: relative;
+    border-bottom: 3px solid #00736F;
+    height: 100px;
+    float: top;
+}
+
+.headerBoxContent {
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: auto;
+}
+
+.headerMyName {
+    float: left;
+    height: 100px;
+    text-align: center;
+    padding: 25px 50px 0px 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+
+}
+
+.headerButtons {
+    float: right;
+    margin-top: 25px;
+}
+
+li {
+    display: inline-block;
+}
+
+/* background image */
+
+.mainBackground {
+        background-color: #0abab5;
+    }
+
+/*About Me*/
+
+.aboutMeBox {
+    width: 960px;
+    margin: 150px auto 150px auto;
+    border: 3px solid #00736F;
+    background-color: white;
+    padding: 50px;
+}
+
+#aboutMe001 {
+    padding-bottom: 50px;
+    border-bottom: 3px solid #00736F;
+    margin-bottom: 50px;
+}
+
+.aboutMeImage {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 25px;
+}
+
+/* Footer */
+
+.mainFooter {
+    background-color: #56D0CB;
+    position: relative;
+    border-top: 3px solid #00736F;
+    height: 100px;
+    float: bottom;
+}
+
+.footerBoxContent {
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
 }
 
 /*Additional Specs */
 .teal {
-    background-color: #4aaa5;
+    background-color: #00958F;
 }
 
 .fontColor {
     color: #777777;
 }
 
-.mainHeader {
-    background-color: #ffffff;
-    border-color: #cccccc;
-}
 
 .footer {
     background-color: #666666;
@@ -32,3 +108,5 @@ body {
 .otherFonts {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
+
+
