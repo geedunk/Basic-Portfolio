@@ -42,7 +42,7 @@ li {
 
 /*About Me*/
 
-.aboutMeBox {
+.bodyBox {
     width: 960px;
     margin: 150px auto 150px auto;
     border: 3px solid #00736F;
@@ -50,7 +50,7 @@ li {
     padding: 50px;
 }
 
-#aboutMe001 {
+.bodyIntro {
     padding-bottom: 50px;
     border-bottom: 3px solid #00736F;
     margin-bottom: 50px;
@@ -63,14 +63,27 @@ li {
     padding-right: 25px;
 }
 
+.portfolioPics {
+    position: relative;
+    margin: 10px 10px 20px 10px;
+    display: inline-block;
+}
+
+.portfolioWords {
+    position: absolute;
+    padding: 10px;
+    margin-top: -40px;
+
+}
+
 /* Footer */
+
 
 .mainFooter {
     background-color: #56D0CB;
     position: relative;
     border-top: 3px solid #00736F;
     height: 100px;
-    float: bottom;
 }
 
 .footerBoxContent {
@@ -79,8 +92,10 @@ li {
     height: 100px;
     margin: auto;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 60px;
 }
+
+
 
 /*Additional Specs */
 .teal {
