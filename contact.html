@@ -6,21 +6,21 @@
         <link rel="stylesheet" type="text/css" href="assets/css/clearfix.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
+        <link href="https://fonts.googleapis.com/css?family=KoHo|Poppins" rel="stylesheet">
 
 <html>
 <body class="mainBackground">
 
 <!--Header-->
 
-<div class="mainHeader headingFonts">
+<div class="mainHeader">
     <div class="headerBoxContent">
-        <div class="headerMyName teal">
+        <div class="headerMyName teal headingFonts">
             Daniel P. Medina JR
             </div>
 
         <div>
-            <ul class="headerButtons">
+            <ul class="headerButtons otherFonts">
                 <li><button type="button" class="btn btn-info" onclick="window.location.href='index.html'">About Me</button></li>
                 <li><button type="button" class="btn btn-info" onclick="window.location.href='portfolio.html'">Portfolio</button></li>
                 <li><button type="button" class="btn btn-info" onclick="window.location.href='contact.html'">Contacts</button></li>
@@ -31,13 +31,30 @@
 
 <!--About Me-->
 
-<div class="bodyBox">
+<div class="bodyBox otherFonts">
         <h1 class="bodyIntro">
                 Contacts
             </h1>
         <div>
-            <form action="/action_page.php">
-                First Name:
+            <form>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="name" class="form-control" id="exampleInputPassword1" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Dear Daniel,"></textarea>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
             </form>
         </div>
     </div>
