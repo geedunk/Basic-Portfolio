@@ -123,10 +123,12 @@ li {
 }
 
 .headingFonts {
-    font-family: 'KoHo', sans-serif;}
+    font-family: 'KoHo', sans-serif;
+}
 
 .otherFonts {
     font-family: 'Poppins', sans-serif;
+    color: #00736F;
 }
 
 
