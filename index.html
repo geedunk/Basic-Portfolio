@@ -2,34 +2,55 @@
 <title>Daniel Medina</title>
 
 <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/clearfix.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <html>
-<body>
+<body class="mainBackground">
 
-<section>
-    Daniel P. Medina JR
-</section>
+<!--Header-->
 
-<section>
-    About Me
-    <a href= "portfolio.html">Portfolio</a>
-    <a href= "contact.html">Contact</a>
-</section>
+<div class="mainHeader headingFonts">
+    <div class="headerBoxContent">
+        <div class="headerMyName teal">
+            Daniel P. Medina JR
+            </div>
 
-<section>
-    <h1>
+        <div>
+            <ul class="headerButtons">
+                <li><button type="button" class="btn btn-info" onclick="window.location.href='index.html'">About Me</button></li>
+                <li><button type="button" class="btn btn-info" onclick="window.location.href='portfolio.html'">Portfolio</button></li>
+                <li><button type="button" class="btn btn-info" onclick="window.location.href='contact.html'">Contacts</button></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--About Me-->
+
+<div class="aboutMeBox">
+    <h1 id="aboutMe001">
         About Me
     </h1>
-    <img src="assets/images/leaves.png">
+    <img class="aboutMeImage" src="assets/images/IMG_0679.jpg">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nunc lacus, tempus eget maximus vel, iaculis vitae odio. Proin tempus, nulla et vulputate volutpat, dolor risus convallis quam, et feugiat dolor purus sed nulla. Aenean viverra imperdiet est at ullamcorper. Donec orci mauris, tempus a sodales in, tristique at nulla. Donec non scelerisque orci, ut imperdiet eros. Phasellus finibus hendrerit mi, sit amet pellentesque magna lobortis at. Nullam ac aliquam elit. In justo massa, volutpat sit amet lectus et, efficitur porta nulla. Morbi mollis tristique neque, id pretium dui ultricies ac. Quisque eu tincidunt diam. Quisque lacinia, arcu non lobortis ultrices, magna nisi tristique nibh, commodo sagittis orci lectus eu lectus.
     </p>
     <p>Proin blandit eleifend bibendum. Suspendisse id pulvinar turpis. Praesent at ipsum ullamcorper, porta massa et, vulputate lorem. Nulla odio erat, hendrerit vitae tincidunt id, viverra ac elit. Nullam vitae lorem ut libero blandit pharetra ut eget nisl. Nullam venenatis tempus euismod. Curabitur eu justo aliquet nibh blandit maximus.
     </p>
     <p>Cras eu felis ac nulla tincidunt fermentum quis ut nunc. Integer pretium pellentesque ante, at imperdiet velit semper nec. Nam sed faucibus libero. Sed sed quam ut enim vehicula laoreet. Phasellus posuere sed ipsum et interdum. Morbi eu vehicula sem, et fermentum eros. Sed libero dolor, pulvinar eget dolor consequat, viverra aliquam odio. Nulla malesuada ultrices quam suscipit tincidunt. Sed est mauris, rhoncus non purus sit amet, ullamcorper finibus mi.
     </p>
-    </section>
+</div>
+
+<!--Footer-->
+
+<div class="mainFooter">
+    <div class="footerBoxContent">
+        Copyright&#169;
+    </div>
+</div>
 
 </body>
 </html>
