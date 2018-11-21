@@ -100,7 +100,7 @@ li {
 
 .mainFooter {
     background-color: #56D0CB;
-    position: relative;
+    position: sticky;
     border-top: 3px solid #00736F;
     height: 100px;
 }
